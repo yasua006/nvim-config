@@ -1,0 +1,3 @@
+.DS_Store
+lua/plugins/*
+!lua/plugins/.gitkeep
