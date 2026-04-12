@@ -58,6 +58,7 @@ local function plug_installs()
             Plug 'nvim-tree/nvim-web-devicons', { 'branch': 'master' } 
             Plug 'numToStr/Comment.nvim', { 'branch': 'master' } 
             Plug 'neovim/nvim-lspconfig', { 'branch': 'master' }
+            Plug 'MunifTanjim/prettier.nvim'
             Plug 'ms-jpq/coq_nvim', {'branch': 'coq'}
             Plug 'ms-jpq/coq.artifacts', {'branch': 'artifacts'}
             Plug 'catppuccin/nvim', { 'branch': 'vim', 'as': 'catppuccin' }
@@ -120,6 +121,7 @@ local tree_config = {
 
 require("lualine").setup()
 require("nvim-tree").setup(tree_config)
+require("prettier").setup()
 require("Comment").setup()
 require("catppuccin").setup({
     flavour = "auto", -- latte, frappe, macchiato, mocha
