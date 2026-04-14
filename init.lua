@@ -62,7 +62,8 @@ local function plug_installs()
             Plug 'ms-jpq/coq_nvim', {'branch': 'coq'}
             Plug 'ms-jpq/coq.artifacts', {'branch': 'artifacts'}
             Plug 'catppuccin/nvim', { 'branch': 'vim', 'as': 'catppuccin' }
-            Plug 'mcauley-penney/visual-whitespace.nvim', { 'branch': 'main' } 
+            Plug 'mcauley-penney/visual-whitespace.nvim', { 'branch': 'main' }
+            Plug 'Pocco81/auto-save.nvim'
         call plug#end()
         ]]
     )
@@ -130,6 +131,7 @@ require("catppuccin").setup({
         dark = "mocha",
     },
 })
+require("auto-save").setup()
 
 vim.cmd.colorscheme "catppuccin-nvim"
 
