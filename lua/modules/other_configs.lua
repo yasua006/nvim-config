@@ -6,10 +6,17 @@ local tree_config = {
     }
 }
 
+local image_clip_config = {
+    default = {
+        dir_path = "images"
+    }
+}
+
 require("lualine").setup()
 require("nvim-tree").setup(tree_config)
 require("prettier").setup()
 require("null-ls").setup()
+require("img-clip").setup(image_clip_config)
 
 require("catppuccin").setup({
     flavour = "auto", -- latte, frappe, macchiato, mocha

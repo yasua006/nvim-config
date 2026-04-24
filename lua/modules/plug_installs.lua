@@ -54,6 +54,7 @@ local function main()
 
         Plug 'MunifTanjim/prettier.nvim'
         Plug 'jose-elias-alvarez/null-ls.nvim'
+        Plug 'hakonharnes/img-clip.nvim'
 
         Plug 'catppuccin/nvim', { 'branch': 'vim', 'as': 'catppuccin' }
     ]])
