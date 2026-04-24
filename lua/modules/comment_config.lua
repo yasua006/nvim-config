@@ -1,3 +1,5 @@
+local cc = {}
+
 local common_multi_line_comment = "/* %s */"
 
 
@@ -35,3 +37,5 @@ local comment_config = {
 }
 
 require("Comment").setup(comment_config)
+
+return cc

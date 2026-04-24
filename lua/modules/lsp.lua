@@ -1,3 +1,5 @@
+local lsp = {}
+
 local coq = require("coq")
 
 vim.lsp.config["lua_ls"] = {
@@ -40,3 +42,5 @@ local function lsp_enables()
 end
 
 lsp_enables()
+
+return lsp

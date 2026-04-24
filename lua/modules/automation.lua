@@ -1,3 +1,5 @@
+local automation = {}
+
 local quit_upd_window = "q"
 
 
@@ -12,3 +14,5 @@ vim.api.nvim_create_autocmd("VimEnter", {
         vim.cmd("echo 'Automation done'")
     end
 })
+
+return automation

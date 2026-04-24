@@ -1,3 +1,5 @@
+local plug_installs = {}
+
 -- change to true, if on Windows
 local is_os_windows = false
 
@@ -17,7 +19,7 @@ end
 
 local function handle_inv_config_path(config_path)
     if not config_path or config_path == "" then
-        warn("Empty or invalid - config path!")
+        print("Empty or invalid - config path!")
         return
     end
 end
@@ -29,7 +31,7 @@ local function main()
     handle_inv_config_path(config_path)
 
     vim.fn["plug#begin"](config_path)
-    
+
     vim.cmd([[
         " * DO NOT Replace ' with " here
 
@@ -60,3 +62,5 @@ local function main()
 end
 
 main()
+
+return plug_installs

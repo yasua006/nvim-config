@@ -1,3 +1,5 @@
+local other_configs = {}
+
 local tree_config = {
     view = {
         width = 50
@@ -19,3 +21,5 @@ require("catppuccin").setup({
 require("auto-save").setup()
 
 vim.cmd.colorscheme "catppuccin-nvim"
+
+return other_configs
