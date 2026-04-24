@@ -39,8 +39,15 @@ vim.opt.showmatch = true
 -- default: 20
 vim.opt.history = 100
 
-require("lua.modules.plug_installs")
-require("lua.modules.lsp")
-require("lua.modules.comment_config")
-require("lua.modules.other_configs")
-require("lua.modules.automation")
+
+local success, err = pcall(function()
+    require("modules.plug_installs")
+    require("modules.lsp")
+    require("modules.comment_config")
+    require("modules.other_configs")
+    require("modules.automation")
+end)
+
+if not success then
+    print("Cannot import finished module!", err)
+end
