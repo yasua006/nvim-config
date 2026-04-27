@@ -3,6 +3,9 @@ local other_configs = {}
 local tree_config = {
     view = {
         width = 50
+    },
+    filters = {
+        git_ignored = false
     }
 }
 
