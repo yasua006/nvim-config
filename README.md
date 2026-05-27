@@ -34,4 +34,5 @@ Jeg bruker Hack Nerd Font, siden det passer bra med "Hacker" terminalen.
 
 > [!NOTE]
 > Plug må installeres i autoload mappen
+>
 > Hvis på Windows, bytt is_on_windows til true i plug_installs.lua
