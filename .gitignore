@@ -2,3 +2,4 @@
 lua/plugins/*
 !lua/plugins/.gitkeep
 autoload/plug.vim
+autoload/plug.vim.old
