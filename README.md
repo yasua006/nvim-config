@@ -39,6 +39,13 @@ Installer live server. Den beste måten er via NPM:
 npm install -g live-server
 ```
 
+### LazyGit
+Installer lazygit. Jo mindre repetisjon av git kommandoer, jo bedre.
+- **MacOS:** `brew install lazygit`
+- **Windows:** `winget install JesseDuffield.lazygit`
+
+For å åpne lazygit i nvim: `:LazyGit`.
+
 > [!NOTE]
 > Plug må installeres i autoload mappen
 >
