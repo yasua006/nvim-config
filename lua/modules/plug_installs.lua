@@ -55,6 +55,8 @@ local function main()
         Plug 'MunifTanjim/prettier.nvim'
         Plug 'jose-elias-alvarez/null-ls.nvim'
 
+        Plug 'kdheepak/lazygit.nvim'
+
         Plug 'catppuccin/nvim', { 'branch': 'vim', 'as': 'catppuccin' }
     ]])
 
