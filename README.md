@@ -2,7 +2,7 @@
 Min Nvim konfigurasjon.
 
 
-## Første gang bruk
+## Setup
 - **MacOS:** `brew install nvim`
 - **Windows:** `winget install Neovim.Neovim`
 
@@ -27,10 +27,17 @@ Etter på, installerer jeg COQ dependencies:
 ```
 
 
-## Få med ikoner
+## Installering
+### Ikoner
 [Nerd fonts](https://www.nerdfonts.com/font-downloads)
 
 Jeg bruker Hack Nerd Font, siden det passer bra med "Hacker" terminalen.
+
+### Live Server
+Installer live server. Den beste måten er via NPM:
+```sh
+npm install -g live-server
+```
 
 > [!NOTE]
 > Plug må installeres i autoload mappen
